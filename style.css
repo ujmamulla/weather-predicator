@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+}
+#weatherApp{
+    margin: auto ;
+    width: 500px;
+    height: 250px;
+    text-align:center;
+    background-color: rgb(109, 161, 109);
+}
+#location-input{
+    padding: 8px;
+    border: 1px solid black ;
+    border-radius: 5px;
+    outline: none ;
+    margin-bottom: 25px;
+}
+#weather-data{
+    margin: 0 auto ;
+    width: 300px ;
+    padding: 25px;
+    border-radius: 5px;
+}
+.back-video{
+    position: absolute ;
+    right: 0 ;
+    bottom: 0 ;
+    z-index: -1 ;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
